@@ -1,0 +1,13 @@
+{application, erlang_http_routing_benchmark,
+ [{description, "Erlang HTTP Routing benchmark"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    erlack_routing
+   ]},
+  {env,[]},
+  {modules, []},
+  {licenses, ["BSD"]}
+ ]}.
